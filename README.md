@@ -42,3 +42,6 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
+### FAQ
+- `gem install pg -v '0.17.0'` Bundle install error on Mac 10.9.3    
+Try `gem install pg -v '0.17.0' -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/9.3/bin/pg_config`
